@@ -11,7 +11,8 @@ export default function Navbar() {
     { href: '/', label: 'Home' },
     { href: '/about', label: 'About' },
     { href: '/performances', label: 'Performances' },
-    { href: '/media', label: 'Media' },
+    { href: '/videos', label: 'Videos' },
+    { href: '/impacts', label: 'Impact & Advocacy' },
     { href: '/contact', label: 'Contact' },
   ];
 
@@ -42,7 +43,7 @@ export default function Navbar() {
             ))}
             <Link
               href="/book"
-              className="px-6 py-2.5 bg-gradient-to-r from-orange-500 to-orange-600 text-white font-semibold rounded-lg hover:from-orange-600 hover:to-orange-700"
+              className="px-6 py-2.5 bg-linear-to-r from-orange-500 to-orange-600 text-white font-semibold rounded-lg hover:from-orange-600 hover:to-orange-700"
             >
               Book Me
             </Link>
@@ -74,7 +75,7 @@ export default function Navbar() {
               ))}
               <Link
                 href="/book"
-                className="px-6 py-3 bg-gradient-to-r from-orange-500 to-orange-600 text-white font-semibold rounded-lg text-center hover:from-orange-600 hover:to-orange-700"
+                className="px-6 py-3 bg-linear-to-r from-orange-500 to-orange-600 text-white font-semibold rounded-lg text-center hover:from-orange-600 hover:to-orange-700"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Book Me

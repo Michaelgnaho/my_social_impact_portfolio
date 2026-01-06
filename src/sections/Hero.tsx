@@ -24,7 +24,7 @@ export default function Hero() {
   }, [images.length]);
 
   return (
-    <section className="relative h-screen min-h-150 w-full overflow-hidden">
+    <section className="relative h-screen min-h-150 w-full overflow-hidden pb-5">
       {/* Background Carousel */}
       <div className="absolute inset-0">
         {images.map((image, index) => (
@@ -83,7 +83,7 @@ export default function Hero() {
               
               <Link
                 href="/book"
-                className="inline-flex items-center justify-center px-8 py-4 bg-linear-to-r from-orange-500 to-orange-600 text-white font-semibold text-lg rounded-lg hover:from-orange-600 hover:to-orange-700 shadow-lg transition-all"
+                className="inline-flex items-center justify-center px-8 py-4 bg-linear-to-r from-orange-500 to-orange-600 text-white font-semibold mt-10 text-lg rounded-lg hover:from-orange-600 hover:to-orange-700 shadow-lg transition-all"
               >
                 <Calendar size={20} className="mr-2" />
                 Book Me
