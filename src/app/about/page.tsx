@@ -1,4 +1,5 @@
 import { Award, Globe, Heart, BookOpen, Mic, Users, Sprout, Droplet, HandHeart, GraduationCap, Shield, Briefcase } from 'lucide-react';
+import Image from 'next/image';
 
 export default function AboutPage() {
   return (
@@ -32,7 +33,10 @@ export default function AboutPage() {
               <div className="relative h-125 lg:h-175">
                 <div className="absolute inset-0 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-2xl">
                   <div className="w-full h-full flex items-center justify-center text-gray-400 text-lg border-2 border-dashed border-orange-300">
-                    [Hero Portrait Photo]
+                    <Image
+                     src="/images/portrait1.jpg"
+                    alt="Global Youth Ambassador and Spoken Word Poet"
+                     fill/>
                   </div>
                 </div>
                 {/* Decorative Element */}
@@ -58,7 +62,10 @@ export default function AboutPage() {
                 {/* Image Placeholder */}
                 <div className="mt-16 h-100 bg-linear-to-br from-orange-100 to-orange-50 rounded-sm shadow-xl">
                   <div className="w-full h-full flex items-center justify-center text-gray-400 border-2 border-dashed border-orange-200">
-                    [Performance Photo]
+                    <Image
+                     src="/images/karibu1.jpg"
+                    alt="Global Youth Ambassador and Spoken Word Poet"
+                     fill/>
                   </div>
                 </div>
               </div>
@@ -108,7 +115,10 @@ export default function AboutPage() {
               <div className="group">
                 <div className="h-75 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-2xl mb-6 overflow-hidden">
                   <div className="w-full h-full flex items-center justify-center text-gray-400 text-lg border-2 border-dashed border-orange-300">
-                    [Global Youth Ambassador Photo]
+                    <Image
+                     src="/images/gya.jpg"
+                    alt="Global Youth Ambassador and Spoken Word Poet"
+                     fill/>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -127,7 +137,10 @@ export default function AboutPage() {
               <div className="group">
                 <div className="h-75 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-2xl mb-6 overflow-hidden">
                   <div className="w-full h-full flex items-center justify-center text-gray-400 text-lg border-2 border-dashed border-orange-300">
-                    [World Bank Youth Summit Photo]
+                  <Image
+                     src="/images/world-bank.PNG"
+                    alt="Global Youth Ambassador and Spoken Word Poet"
+                     fill/>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -149,7 +162,10 @@ export default function AboutPage() {
               <div className="group">
                 <div className="h-62.5 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-xl mb-6 overflow-hidden">
                   <div className="w-full h-full flex items-center justify-center text-gray-400 border-2 border-dashed border-orange-300">
-                    [Microscope Fellowship Photo]
+                    <Image
+                     src="/images/microsope.jpg"
+                    alt="Global Youth Ambassador and Spoken Word Poet"
+                     fill/>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -165,7 +181,10 @@ export default function AboutPage() {
               <div className="group">
                 <div className="h-62.5 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-xl mb-6 overflow-hidden">
                   <div className="w-full h-full flex items-center justify-center text-gray-400 border-2 border-dashed border-orange-300">
-                    [ALX Graduation Photo]
+                    <Image
+                     src="/images/alx.jpg"
+                    alt="Global Youth Ambassador and Spoken Word Poet"
+                     fill/>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -181,7 +200,10 @@ export default function AboutPage() {
               <div className="group">
                 <div className="h-62.5 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-xl mb-6 overflow-hidden">
                   <div className="w-full h-full flex items-center justify-center text-gray-400 border-2 border-dashed border-orange-300">
-                    [Harvard Certificate Photo]
+                   <Image
+                     src="/images/aspire-img.PNG"
+                    alt="Global Youth Ambassador and Spoken Word Poet"
+                     fill/>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -200,7 +222,10 @@ export default function AboutPage() {
               <div className="group">
                 <div className="h-75 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-2xl mb-6 overflow-hidden">
                   <div className="w-full h-full flex items-center justify-center text-gray-400 text-lg border-2 border-dashed border-orange-300">
-                    [Lagos State Poet Laureate Photo]
+                    <Image
+                     src="/images/poet-lagos.jpg"
+                    alt="Global Youth Ambassador and Spoken Word Poet"
+                     fill/>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -219,7 +244,10 @@ export default function AboutPage() {
               <div className="group">
                 <div className="h-75 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-2xl mb-6 overflow-hidden">
                   <div className="w-full h-full flex items-center justify-center text-gray-400 text-lg border-2 border-dashed border-orange-300">
-                    [LASU Poet Laureate Photo]
+                    <Image
+                     src="/images/poet-l1.jpg"
+                    alt="Global Youth Ambassador and Spoken Word Poet"
+                     fill/>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -241,7 +269,10 @@ export default function AboutPage() {
               <div className="group">
                 <div className="h-75 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-2xl mb-6 overflow-hidden">
                   <div className="w-full h-full flex items-center justify-center text-gray-400 text-lg border-2 border-dashed border-orange-300">
-                    [Sage Hassan Winner Photo]
+                    <Image
+                     src="/images/sage-hassan.jpg"
+                    alt="Global Youth Ambassador and Spoken Word Poet"
+                     fill/>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -260,7 +291,10 @@ export default function AboutPage() {
               <div className="group">
                 <div className="h-75 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-2xl mb-6 overflow-hidden">
                   <div className="w-full h-full flex items-center justify-center text-gray-400 text-lg border-2 border-dashed border-orange-300">
-                    [Quramo Winner Photo]
+                    <Image
+                     src="/images/quramo.jpg"
+                    alt="Global Youth Ambassador and Spoken Word Poet"
+                     fill/>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -322,7 +356,7 @@ export default function AboutPage() {
                   <span className="text-xs text-gray-400 px-2">[TEDx Logo]</span>
                 </div>
                 <p className="text-sm font-semibold text-gray-700 group-hover:text-orange-500 transition-colors">
-                  TEDx LASU
+                  TEDx
                 </p>
               </div>
             </div>
@@ -375,17 +409,7 @@ export default function AboutPage() {
               </div>
             </div>
 
-            {/* World Bank */}
-            <div className="aspect-square bg-gray-50 rounded-sm shadow-lg flex items-center justify-center p-8 group hover:shadow-2xl hover:bg-orange-50 transition-all">
-              <div className="text-center">
-                <div className="w-full h-32 bg-linear-to-br from-gray-200 to-gray-100 rounded flex items-center justify-center mb-4 border-2 border-dashed border-gray-300">
-                  <span className="text-xs text-gray-400 px-2">[World Bank Logo]</span>
-                </div>
-                <p className="text-sm font-semibold text-gray-700 group-hover:text-orange-500 transition-colors">
-                  World Bank Youth Summit
-                </p>
-              </div>
-            </div>
+            
           </div>
 
           {/* Additional Partner Stats */}
