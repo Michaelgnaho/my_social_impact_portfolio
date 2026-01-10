@@ -1,7 +1,25 @@
+"use client"
+
 import { Award, Globe, Heart, BookOpen, Mic, Users, Sprout, Droplet, HandHeart, GraduationCap, Shield, Briefcase } from 'lucide-react';
 import Image from 'next/image';
+import useEmblaCarousel from 'embla-carousel-react';
+import Autoplay from 'embla-carousel-autoplay';
 
 export default function AboutPage() {
+  const [emblaRef] = useEmblaCarousel(
+    { loop: true, align: 'start' },
+    [Autoplay({ delay: 3000, stopOnInteraction: false })] // Auto-play every 3 seconds
+  );
+
+  const partners = [
+    { name: 'Lagos State Government', logo: '/images/lagos-logo.PNG' },
+    { name: 'Theirworld', logo: '/images/theirword-logo.webp' },
+    { name: 'TEDx', logo: '/images/tedx-logo.jpg' },
+    { name: 'Junior Chamber International', logo: '/images/jci-logo.png' },
+    { name: 'Quramo', logo: '/images/quramo-logo.jpg' },
+
+    // Add more if needed
+  ];
   return (
     <main className="min-h-screen bg-white">
       {/* Hero Section - Editorial Magazine Style */}
@@ -113,13 +131,13 @@ export default function AboutPage() {
             <div className="grid md:grid-cols-2 gap-16">
               {/* Global Youth Ambassador */}
               <div className="group">
-                <div className="h-75 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-2xl mb-6 overflow-hidden">
-                  <div className="w-full h-full flex items-center justify-center text-gray-400 text-lg border-2 border-dashed border-orange-300">
-                    <Image
-                     src="/images/gya.jpg"
-                    alt="Global Youth Ambassador and Spoken Word Poet"
-                     fill/>
-                  </div>
+                <div className="relative h-75 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-2xl mb-6 overflow-hidden">
+                  <Image
+                    src="/images/gya.jpg"
+                    alt="Global Youth Ambassador"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <div className="flex items-start gap-4">
                   <Globe className="w-10 h-10 text-orange-500 shrink-0 mt-1" />
@@ -135,13 +153,13 @@ export default function AboutPage() {
 
               {/* Youth Delegate - World Bank */}
               <div className="group">
-                <div className="h-75 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-2xl mb-6 overflow-hidden">
-                  <div className="w-full h-full flex items-center justify-center text-gray-400 text-lg border-2 border-dashed border-orange-300">
+                <div className="relative h-75 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-2xl mb-6 overflow-hidden">
                   <Image
-                     src="/images/world-bank.PNG"
-                    alt="Global Youth Ambassador and Spoken Word Poet"
-                     fill/>
-                  </div>
+                    src="/images/world-bank.PNG"
+                    alt="World Bank Youth Summit Delegate"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <div className="flex items-start gap-4">
                   <Briefcase className="w-10 h-10 text-orange-500 shrink-0 mt-1" />
@@ -160,13 +178,13 @@ export default function AboutPage() {
             <div className="grid md:grid-cols-3 gap-12">
               {/* Microscope Fellowship */}
               <div className="group">
-                <div className="h-62.5 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-xl mb-6 overflow-hidden">
-                  <div className="w-full h-full flex items-center justify-center text-gray-400 border-2 border-dashed border-orange-300">
-                    <Image
-                     src="/images/microsope.jpg"
-                    alt="Global Youth Ambassador and Spoken Word Poet"
-                     fill/>
-                  </div>
+                <div className="relative h-62.5 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-xl mb-6 overflow-hidden">
+                  <Image
+                    src="/images/microsope.jpg"
+                    alt="Microscope Fellowship"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <div className="flex items-start gap-3">
                   <Users className="w-8 h-8 text-orange-500 shrink-0 mt-1" />
@@ -179,13 +197,13 @@ export default function AboutPage() {
 
               {/* Software Engineer */}
               <div className="group">
-                <div className="h-62.5 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-xl mb-6 overflow-hidden">
-                  <div className="w-full h-full flex items-center justify-center text-gray-400 border-2 border-dashed border-orange-300">
-                    <Image
-                     src="/images/alx.jpg"
-                    alt="Global Youth Ambassador and Spoken Word Poet"
-                     fill/>
-                  </div>
+                <div className="relative h-62.5 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-xl mb-6 overflow-hidden">
+                  <Image
+                    src="/images/alx.jpg"
+                    alt="ALX Certified Software Engineer"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <div className="flex items-start gap-3">
                   <GraduationCap className="w-8 h-8 text-orange-500 shrink-0 mt-1" />
@@ -198,13 +216,13 @@ export default function AboutPage() {
 
               {/* Harvard */}
               <div className="group">
-                <div className="h-62.5 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-xl mb-6 overflow-hidden">
-                  <div className="w-full h-full flex items-center justify-center text-gray-400 border-2 border-dashed border-orange-300">
-                   <Image
-                     src="/images/aspire-img.PNG"
-                    alt="Global Youth Ambassador and Spoken Word Poet"
-                     fill/>
-                  </div>
+                <div className="relative h-62.5 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-xl mb-6 overflow-hidden">
+                  <Image
+                    src="/images/aspire-img.PNG"
+                    alt="Harvard Business School Online - Aspire Institute"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <div className="flex items-start gap-3">
                   <Shield className="w-8 h-8 text-orange-500 shrink-0 mt-1" />
@@ -220,13 +238,13 @@ export default function AboutPage() {
             <div className="grid md:grid-cols-2 gap-16">
               {/* Lagos State Government Poet Laureate */}
               <div className="group">
-                <div className="h-75 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-2xl mb-6 overflow-hidden">
-                  <div className="w-full h-full flex items-center justify-center text-gray-400 text-lg border-2 border-dashed border-orange-300">
-                    <Image
-                     src="/images/poet-lagos.jpg"
-                    alt="Global Youth Ambassador and Spoken Word Poet"
-                     fill/>
-                  </div>
+                <div className="relative h-75 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-2xl mb-6 overflow-hidden">
+                  <Image
+                    src="/images/poet-lagos.jpg"
+                    alt="Lagos State Government Poet Laureate"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <div className="flex items-start gap-4">
                   <Award className="w-10 h-10 text-orange-500 shrink-0 mt-1" />
@@ -242,13 +260,13 @@ export default function AboutPage() {
 
               {/* LASU Poet Laureate */}
               <div className="group">
-                <div className="h-75 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-2xl mb-6 overflow-hidden">
-                  <div className="w-full h-full flex items-center justify-center text-gray-400 text-lg border-2 border-dashed border-orange-300">
-                    <Image
-                     src="/images/poet-l1.jpg"
-                    alt="Global Youth Ambassador and Spoken Word Poet"
-                     fill/>
-                  </div>
+                <div className="relative h-75 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-2xl mb-6 overflow-hidden">
+                  <Image
+                    src="/images/poet-l1.jpg"
+                    alt="Lagos State University Poet Laureate"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <div className="flex items-start gap-4">
                   <Award className="w-10 h-10 text-orange-500 shrink-0 mt-1" />
@@ -267,13 +285,13 @@ export default function AboutPage() {
             <div className="grid md:grid-cols-2 gap-16">
               {/* Sage Hassan */}
               <div className="group">
-                <div className="h-75 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-2xl mb-6 overflow-hidden">
-                  <div className="w-full h-full flex items-center justify-center text-gray-400 text-lg border-2 border-dashed border-orange-300">
-                    <Image
-                     src="/images/sage-hassan.jpg"
-                    alt="Global Youth Ambassador and Spoken Word Poet"
-                     fill/>
-                  </div>
+                <div className="relative h-75 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-2xl mb-6 overflow-hidden">
+                  <Image
+                    src="/images/sage-hassan.jpg"
+                    alt="Sage Hassan World Poetry Day Slam Winner"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <div className="flex items-start gap-4">
                   <Mic className="w-10 h-10 text-orange-500 shrink-0 mt-1" />
@@ -289,13 +307,13 @@ export default function AboutPage() {
 
               {/* Quramo */}
               <div className="group">
-                <div className="h-75 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-2xl mb-6 overflow-hidden">
-                  <div className="w-full h-full flex items-center justify-center text-gray-400 text-lg border-2 border-dashed border-orange-300">
-                    <Image
-                     src="/images/quramo.jpg"
-                    alt="Global Youth Ambassador and Spoken Word Poet"
-                     fill/>
-                  </div>
+                <div className="relative h-75 bg-linear-to-br from-orange-200 to-orange-100 rounded-sm shadow-2xl mb-6 overflow-hidden">
+                  <Image
+                    src="/images/quramo.jpg"
+                    alt="Quramo Word Slam 2025 Winner"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <div className="flex items-start gap-4">
                   <Mic className="w-10 h-10 text-orange-500 shrink-0 mt-1" />
@@ -315,7 +333,7 @@ export default function AboutPage() {
 
 
       {/* Organizations & Partners Section */}
-      <section className="py-32 px-6 bg-white">
+     <section className="py-32 px-6 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="mb-20 text-center">
             <h2 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
@@ -324,92 +342,31 @@ export default function AboutPage() {
             <div className="h-1 w-40 bg-linear-to-r from-orange-500 to-orange-300 mx-auto"></div>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-            {/* Lagos State Government */}
-            <div className="aspect-square bg-gray-50 rounded-sm shadow-lg flex items-center justify-center p-8 group hover:shadow-2xl hover:bg-orange-50 transition-all">
-              <div className="text-center">
-                <div className="w-full h-32 bg-linear-to-br from-gray-200 to-gray-100 rounded flex items-center justify-center mb-4 border-2 border-dashed border-gray-300">
-                  <span className="text-xs text-gray-400 px-2">[Lagos State Logo]</span>
+          {/* Embla Carousel */}
+          <div className="overflow-hidden" ref={emblaRef}>
+            <div className="flex">
+              {partners.map((partner) => (
+                <div
+                  key={partner.name}
+                  className="flex-none w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4" // Responsive slides
+                >
+                  <div className="aspect-square bg-gray-50 rounded-sm shadow-lg flex flex-col items-center justify-center p-8 group hover:shadow-2xl hover:bg-orange-50 transition-all">
+                    <div className="relative w-full h-32 mb-4">
+                      <Image
+                        src={partner.logo}
+                        alt={`${partner.name} logo`}
+                        fill
+                        className="object-contain drop-shadow-md"
+                        priority
+                      />
+                    </div>
+                    <p className="text-sm font-semibold text-gray-700 group-hover:text-orange-500 transition-colors text-center">
+                      {partner.name}
+                    </p>
+                  </div>
                 </div>
-                <p className="text-sm font-semibold text-gray-700 group-hover:text-orange-500 transition-colors">
-                  Lagos State Government
-                </p>
-              </div>
+              ))}
             </div>
-
-            {/* Theirworld */}
-            <div className="aspect-square bg-gray-50 rounded-sm shadow-lg flex items-center justify-center p-8 group hover:shadow-2xl hover:bg-orange-50 transition-all">
-              <div className="text-center">
-                <div className="w-full h-32 bg-linear-to-br from-gray-200 to-gray-100 rounded flex items-center justify-center mb-4 border-2 border-dashed border-gray-300">
-                  <span className="text-xs text-gray-400 px-2">[Theirworld Logo]</span>
-                </div>
-                <p className="text-sm font-semibold text-gray-700 group-hover:text-orange-500 transition-colors">
-                  Theirworld
-                </p>
-              </div>
-            </div>
-
-            {/* TEDx */}
-            <div className="aspect-square bg-gray-50 rounded-sm shadow-lg flex items-center justify-center p-8 group hover:shadow-2xl hover:bg-orange-50 transition-all">
-              <div className="text-center">
-                <div className="w-full h-32 bg-linear-to-br from-gray-200 to-gray-100 rounded flex items-center justify-center mb-4 border-2 border-dashed border-gray-300">
-                  <span className="text-xs text-gray-400 px-2">[TEDx Logo]</span>
-                </div>
-                <p className="text-sm font-semibold text-gray-700 group-hover:text-orange-500 transition-colors">
-                  TEDx
-                </p>
-              </div>
-            </div>
-
-            {/* JCI */}
-            <div className="aspect-square bg-gray-50 rounded-sm shadow-lg flex items-center justify-center p-8 group hover:shadow-2xl hover:bg-orange-50 transition-all">
-              <div className="text-center">
-                <div className="w-full h-32 bg-linear-to-br from-gray-200 to-gray-100 rounded flex items-center justify-center mb-4 border-2 border-dashed border-gray-300">
-                  <span className="text-xs text-gray-400 px-2">[JCI Logo]</span>
-                </div>
-                <p className="text-sm font-semibold text-gray-700 group-hover:text-orange-500 transition-colors">
-                  Junior Chamber International
-                </p>
-              </div>
-            </div>
-
-            {/* Quramo */}
-            <div className="aspect-square bg-gray-50 rounded-sm shadow-lg flex items-center justify-center p-8 group hover:shadow-2xl hover:bg-orange-50 transition-all">
-              <div className="text-center">
-                <div className="w-full h-32 bg-linear-to-br from-gray-200 to-gray-100 rounded flex items-center justify-center mb-4 border-2 border-dashed border-gray-300">
-                  <span className="text-xs text-gray-400 px-2">[Quramo Logo]</span>
-                </div>
-                <p className="text-sm font-semibold text-gray-700 group-hover:text-orange-500 transition-colors">
-                  Quramo
-                </p>
-              </div>
-            </div>
-
-            {/* Green Janitor Initiative */}
-            <div className="aspect-square bg-gray-50 rounded-sm shadow-lg flex items-center justify-center p-8 group hover:shadow-2xl hover:bg-orange-50 transition-all">
-              <div className="text-center">
-                <div className="w-full h-32 bg-linear-to-br from-gray-200 to-gray-100 rounded flex items-center justify-center mb-4 border-2 border-dashed border-gray-300">
-                  <span className="text-xs text-gray-400 px-2">[Green Janitor Logo]</span>
-                </div>
-                <p className="text-sm font-semibold text-gray-700 group-hover:text-orange-500 transition-colors">
-                  Green Janitor Initiative
-                </p>
-              </div>
-            </div>
-
-            {/* Adunni Save A Girl Foundation */}
-            <div className="aspect-square bg-gray-50 rounded-sm shadow-lg flex items-center justify-center p-8 group hover:shadow-2xl hover:bg-orange-50 transition-all">
-              <div className="text-center">
-                <div className="w-full h-32 bg-linear-to-br from-gray-200 to-gray-100 rounded flex items-center justify-center mb-4 border-2 border-dashed border-gray-300">
-                  <span className="text-xs text-gray-400 px-2">[Adunni Logo]</span>
-                </div>
-                <p className="text-sm font-semibold text-gray-700 group-hover:text-orange-500 transition-colors">
-                  Adunni Save A Girl Foundation
-                </p>
-              </div>
-            </div>
-
-            
           </div>
 
           {/* Additional Partner Stats */}
