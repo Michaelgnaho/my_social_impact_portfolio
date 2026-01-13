@@ -71,80 +71,12 @@ export default function SocialImpactPage() {
         </div>
 
         <div className="space-y-16">
-          {/* World Ocean Day 2022 */}
+          {/* World Cleanup Day 2025 */}
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="relative h-75 md:h-100 rounded-xl overflow-hidden shadow-lg order-2 md:order-1">
               <Image
-                src="/images/advocacy-lb1.jpg"
-                alt="World Ocean Day riverine community sensitization"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="space-y-4 order-1 md:order-2">
-              <div className="inline-flex items-center gap-2 px-3 py-1 bg-blue-50 rounded-full">
-                <Globe className="w-4 h-4 text-blue-600" />
-                <span className="text-sm font-medium text-blue-700">
-                  World Ocean Day
-                </span>
-              </div>
-              <h3 className="text-2xl font-bold text-slate-900">
-                Riverine Community Sensitization
-              </h3>
-              <p className="text-orange-600 font-medium">
-                Lekan Bakare Foundation
-              </p>
-              <p className="text-slate-500">June 2022</p>
-              <p className="text-slate-600 leading-relaxed">
-                Joined a team of climate advocates to sensitize people living
-                near rivers on the importance of keeping water clean and proper
-                waste management. We enlightened communities on ways to reduce,
-                reuse, and recycle waste, connecting environmental health to
-                community wellbeing.
-              </p>
-            </div>
-          </div>
-
-          {/* Riverine Schools Education 2023 */}
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div className="space-y-4">
-              <div className="inline-flex items-center gap-2 px-3 py-1 bg-purple-50 rounded-full">
-                <BookOpen className="w-4 h-4 text-purple-600" />
-                <span className="text-sm font-medium text-purple-700">
-                  Education Advocacy
-                </span>
-              </div>
-              <h3 className="text-2xl font-bold text-slate-900">
-                Riverine Schools Water Conservation Project
-              </h3>
-              <p className="text-orange-600 font-medium">
-                Lekan Bakare Foundation
-              </p>
-              <p className="text-slate-500">2023</p>
-              <p className="text-slate-600 leading-relaxed">
-                Invited as a spoken word poet to educate local riverine schools
-                on keeping water clean and how this can boost their standard of
-                living. Through compelling poetry performances, I inspired
-                students to engage actively in making the ocean clean, merging
-                art with environmental education.
-              </p>
-            </div>
-            <div className="relative h-75 md:h-100 rounded-xl overflow-hidden shadow-lg">
-              <Image
-                src="/images/reverineSchAdv.jpg"
-                alt="Education at riverine schools"
-                fill
-                className="object-cover"
-              />
-            </div>
-          </div>
-
-          {/* World Cleanup Day 2024 */}
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div className="relative h-75 md:h-100 rounded-xl overflow-hidden shadow-lg order-2 md:order-1">
-              <Image
-                src="/images/wcd1.jpg"
-                alt="World Cleanup Day community action"
+                src="/images/wcd20251.jpg"
+                alt="World Cleanup Day 2025"
                 fill
                 className="object-cover"
               />
@@ -157,22 +89,21 @@ export default function SocialImpactPage() {
                 </span>
               </div>
               <h3 className="text-2xl font-bold text-slate-900">
-                Green Janitor Initiative Community Cleanup
+                Green Janitor Initiative Cleanup 2025
               </h3>
               <p className="text-orange-600 font-medium">
                 Green Janitor Initiative
               </p>
-              <p className="text-slate-500">September 2024</p>
+              <p className="text-slate-500">September 2025</p>
               <p className="text-slate-600 leading-relaxed">
-                Joined a team of climate advocates for hands-on community
-                cleanup work. We went into the community with tools for cleaning
-                gutters and public spaces. This is a project I have repeatedly
-                participated in with genuine excitement, demonstrating that real
-                change requires rolling up your sleeves alongside advocacy.
+                Continued my commitment to environmental action by joining the
+                Green Janitor Initiative again for World Cleanup Day. This
+                consistent participation demonstrates long-term dedication to
+                climate action and community environmental health, not just
+                one-time involvement.
               </p>
             </div>
           </div>
-
           {/* Website Development 2025 */}
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="space-y-4">
@@ -213,13 +144,12 @@ export default function SocialImpactPage() {
               />
             </div>
           </div>
-
-          {/* World Cleanup Day 2025 */}
+          {/* World Cleanup Day 2024 */}
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="relative h-75 md:h-100 rounded-xl overflow-hidden shadow-lg order-2 md:order-1">
               <Image
-                src="/images/wcd20251.jpg"
-                alt="World Cleanup Day 2025"
+                src="/images/wcd1.jpg"
+                alt="World Cleanup Day community action"
                 fill
                 className="object-cover"
               />
@@ -232,18 +162,84 @@ export default function SocialImpactPage() {
                 </span>
               </div>
               <h3 className="text-2xl font-bold text-slate-900">
-                Green Janitor Initiative Cleanup 2025
+                Green Janitor Initiative Community Cleanup
               </h3>
               <p className="text-orange-600 font-medium">
                 Green Janitor Initiative
               </p>
-              <p className="text-slate-500">September 2025</p>
+              <p className="text-slate-500">September 2024</p>
               <p className="text-slate-600 leading-relaxed">
-                Continued my commitment to environmental action by joining the
-                Green Janitor Initiative again for World Cleanup Day. This
-                consistent participation demonstrates long-term dedication to
-                climate action and community environmental health, not just
-                one-time involvement.
+                Joined a team of climate advocates for hands-on community
+                cleanup work. We went into the community with tools for cleaning
+                gutters and public spaces. This is a project I have repeatedly
+                participated in with genuine excitement, demonstrating that real
+                change requires rolling up your sleeves alongside advocacy.
+              </p>
+            </div>
+          </div>
+          {/* Riverine Schools Education 2023 */}
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div className="space-y-4">
+              <div className="inline-flex items-center gap-2 px-3 py-1 bg-purple-50 rounded-full">
+                <BookOpen className="w-4 h-4 text-purple-600" />
+                <span className="text-sm font-medium text-purple-700">
+                  Education Advocacy
+                </span>
+              </div>
+              <h3 className="text-2xl font-bold text-slate-900">
+                Riverine Schools Water Conservation Project
+              </h3>
+              <p className="text-orange-600 font-medium">
+                Lekan Bakare Foundation
+              </p>
+              <p className="text-slate-500">2023</p>
+              <p className="text-slate-600 leading-relaxed">
+                Invited as a spoken word poet to educate local riverine schools
+                on keeping water clean and how this can boost their standard of
+                living. Through compelling poetry performances, I inspired
+                students to engage actively in making the ocean clean, merging
+                art with environmental education.
+              </p>
+            </div>
+            <div className="relative h-75 md:h-100 rounded-xl overflow-hidden shadow-lg">
+              <Image
+                src="/images/reverineSchAdv.jpg"
+                alt="Education at riverine schools"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
+          {/* World Ocean Day 2022 */}
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div className="relative h-75 md:h-100 rounded-xl overflow-hidden shadow-lg order-2 md:order-1">
+              <Image
+                src="/images/advocacy-lb1.jpg"
+                alt="World Ocean Day riverine community sensitization"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="space-y-4 order-1 md:order-2">
+              <div className="inline-flex items-center gap-2 px-3 py-1 bg-blue-50 rounded-full">
+                <Globe className="w-4 h-4 text-blue-600" />
+                <span className="text-sm font-medium text-blue-700">
+                  World Ocean Day
+                </span>
+              </div>
+              <h3 className="text-2xl font-bold text-slate-900">
+                Riverine Community Sensitization
+              </h3>
+              <p className="text-orange-600 font-medium">
+                Lekan Bakare Foundation
+              </p>
+              <p className="text-slate-500">June 2022</p>
+              <p className="text-slate-600 leading-relaxed">
+                Joined a team of climate advocates to sensitize people living
+                near rivers on the importance of keeping water clean and proper
+                waste management. We enlightened communities on ways to reduce,
+                reuse, and recycle waste, connecting environmental health to
+                community wellbeing.
               </p>
             </div>
           </div>

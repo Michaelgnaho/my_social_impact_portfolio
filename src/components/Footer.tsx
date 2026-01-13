@@ -1,36 +1,36 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { Linkedin, Instagram, Youtube, Twitter, Mail } from 'lucide-react';
+import Link from "next/link";
+import { Linkedin, Instagram, Youtube, Twitter, Mail } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
     {
-      name: 'LinkedIn',
+      name: "LinkedIn",
       icon: Linkedin,
-      url: 'https://linkedin.com/in/yourprofile',
-      ariaLabel: 'Visit LinkedIn profile'
+      url: "https://linkedin.com/in/yourprofile",
+      ariaLabel: "Visit LinkedIn profile",
     },
     {
-      name: 'Instagram',
+      name: "Instagram",
       icon: Instagram,
-      url: 'https://instagram.com/yourprofile',
-      ariaLabel: 'Visit Instagram profile'
+      url: "https://instagram.com/yourprofile",
+      ariaLabel: "Visit Instagram profile",
     },
     {
-      name: 'YouTube',
+      name: "YouTube",
       icon: Youtube,
-      url: 'https://youtube.com/@yourprofile',
-      ariaLabel: 'Visit YouTube channel'
+      url: "https://youtube.com/@yourprofile",
+      ariaLabel: "Visit YouTube channel",
     },
     {
-      name: 'X (Twitter)',
+      name: "X (Twitter)",
       icon: Twitter,
-      url: 'https://x.com/yourprofile',
-      ariaLabel: 'Visit X profile'
-    }
+      url: "https://x.com/yourprofile",
+      ariaLabel: "Visit X profile",
+    },
   ];
 
   return (
@@ -40,39 +40,41 @@ export default function Footer() {
           {/* Brand Section */}
           <div>
             <h3 className="text-2xl font-bold text-neutral-900 mb-2">
-              Michael [Last Name]
+              Michael Gnaho
             </h3>
             <div className="w-12 h-1 bg-linear-to-r from-orange-500 to-orange-600 mb-4"></div>
             <p className="text-neutral-600 leading-relaxed">
-              Global Youth Ambassador, Spoken Word Poet, and advocate for education, 
-              climate action, and justice.
+              Global Youth Ambassador, Spoken Word Poet, and advocate for
+              education, climate action, and justice.
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold text-neutral-900 mb-4">Quick Links</h4>
+            <h4 className="text-lg font-semibold text-neutral-900 mb-4">
+              Quick Links
+            </h4>
             <nav className="space-y-3">
-              <Link 
-                href="/about" 
+              <Link
+                href="/about"
                 className="block text-neutral-600 hover:text-orange-600"
               >
                 About
               </Link>
-              <Link 
-                href="/performances" 
+              <Link
+                href="/performances"
                 className="block text-neutral-600 hover:text-orange-600"
               >
                 Performances
               </Link>
-              <Link 
-                href="/advocacy" 
+              <Link
+                href="/advocacy"
                 className="block text-neutral-600 hover:text-orange-600"
               >
                 Advocacy
               </Link>
-              <Link 
-                href="/book" 
+              <Link
+                href="/book"
                 className="block text-neutral-600 hover:text-orange-600"
               >
                 Book Me
@@ -82,12 +84,14 @@ export default function Footer() {
 
           {/* Contact & Social */}
           <div>
-            <h4 className="text-lg font-semibold text-neutral-900 mb-4">Connect</h4>
-            
+            <h4 className="text-lg font-semibold text-neutral-900 mb-4">
+              Connect
+            </h4>
+
             {/* Email */}
             <div className="mb-6">
-              <a 
-                href="mailto:contact@example.com" 
+              <a
+                href="mailto:contact@example.com"
                 className="flex items-center gap-2 text-neutral-600 hover:text-orange-600"
               >
                 <Mail className="w-5 h-5" strokeWidth={2} />
