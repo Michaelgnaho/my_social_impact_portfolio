@@ -687,18 +687,11 @@ export default function SocialImpactPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="#"
+                href="/contact"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-orange-600 rounded-lg hover:bg-orange-50 transition-colors font-semibold text-lg"
               >
                 Partner With Me
                 <HandHeart className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-orange-700 text-white rounded-lg hover:bg-orange-800 transition-colors font-semibold text-lg border-2 border-white"
-              >
-                Support Green Janitor
-                <Sprout className="w-5 h-5" />
               </a>
             </div>
           </AnimatedContent>

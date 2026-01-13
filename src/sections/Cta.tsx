@@ -88,7 +88,7 @@ export default function CallToAction() {
         >
           <div>
             <Link
-              href="/book"
+              href="/contact"
               className="inline-flex items-center justify-center px-10 py-5 bg-white text-orange-600 font-bold text-lg rounded-lg hover:bg-neutral-50 shadow-xl"
             >
               <Calendar className="w-5 h-5 mr-2" strokeWidth={2.5} />

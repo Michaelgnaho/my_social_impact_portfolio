@@ -180,7 +180,7 @@ export default function PerformanceSection() {
         >
           <div className="text-center">
             <Link
-              href="/performance"
+              href="/performances"
               className="group inline-flex items-center gap-4 px-10 py-5 bg-gradient-to-r from-orange-500 to-orange-600 text-white text-lg font-bold rounded-full hover:from-orange-600 hover:to-orange-700 transition-all duration-300 shadow-lg hover:shadow-2xl hover:scale-105"
             >
               <span>View All Performances</span>

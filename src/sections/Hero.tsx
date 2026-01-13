@@ -85,7 +85,7 @@ export default function Hero() {
               </Link>
 
               <Link
-                href="/book"
+                href="/contact"
                 className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-orange-500 to-orange-600 text-white font-semibold text-lg rounded-lg hover:from-orange-600 hover:to-orange-700 shadow-lg transition-all duration-300"
               >
                 <Calendar size={20} className="mr-2" />
