@@ -10,25 +10,25 @@ export default function Footer() {
     {
       name: "LinkedIn",
       icon: Linkedin,
-      url: "https://linkedin.com/in/yourprofile",
+      url: " https://www.linkedin.com/in/michael-adeyemi-gnaho-7b487020b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       ariaLabel: "Visit LinkedIn profile",
     },
     {
       name: "Instagram",
       icon: Instagram,
-      url: "https://instagram.com/yourprofile",
+      url: "https://www.instagram.com/simplymag_?igsh=MW1uYW13NzR1aW1peQ==",
       ariaLabel: "Visit Instagram profile",
     },
     {
       name: "YouTube",
       icon: Youtube,
-      url: "https://youtube.com/@yourprofile",
+      url: "https://youtube.com/@simplym.a.g?si=gNpg3iwnt_YF5FBo",
       ariaLabel: "Visit YouTube channel",
     },
     {
       name: "X (Twitter)",
       icon: Twitter,
-      url: "https://x.com/yourprofile",
+      url: "https://x.com/simplymag_?t=2PSbJI2OFVrKmScN_cxPxg&s=09",
       ariaLabel: "Visit X profile",
     },
   ];
@@ -68,7 +68,7 @@ export default function Footer() {
                 Performances
               </Link>
               <Link
-                href="/advocacy"
+                href="/impacts"
                 className="block text-neutral-600 hover:text-orange-600"
               >
                 Advocacy
@@ -91,11 +91,11 @@ export default function Footer() {
             {/* Email */}
             <div className="mb-6">
               <a
-                href="mailto:contact@example.com"
+                href="mailto:helloglobalmichael@gmail.com"
                 className="flex items-center gap-2 text-neutral-600 hover:text-orange-600"
               >
                 <Mail className="w-5 h-5" strokeWidth={2} />
-                <span>contact@example.com</span>
+                <span>helloglobalmichael@gmail.com</span>
               </a>
             </div>
 
