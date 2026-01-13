@@ -351,7 +351,7 @@ export default function VideosPage() {
                 View Performance Gallery
               </Link>
               <Link
-                href="/impact"
+                href="/impacts"
                 className="px-10 py-5 bg-orange-600 text-white text-lg font-bold rounded-full hover:bg-orange-700 transition-all duration-300 border-2 border-white"
               >
                 See Impact Work
