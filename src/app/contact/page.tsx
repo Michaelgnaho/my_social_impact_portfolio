@@ -258,6 +258,228 @@ ${formData.message}
           </div>
         </div>
       </section>
+      <section className="py-32 px-6 bg-gray-50">
+        <div className="max-w-7xl mx-auto">
+          <AnimatedContent
+            distance={80}
+            direction="vertical"
+            reverse={false}
+            duration={1}
+            ease="power3.out"
+            initialOpacity={0}
+            animateOpacity
+            threshold={0.2}
+          >
+            <div className="mb-16 text-center">
+              <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+                What I Offer
+              </h2>
+              <div className="h-1 w-32 bg-linear-to-r from-orange-500 to-orange-300 mx-auto"></div>
+            </div>
+          </AnimatedContent>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Performance Bookings */}
+            <AnimatedContent
+              distance={80}
+              direction="vertical"
+              reverse={false}
+              duration={0.9}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={0.95}
+              threshold={0.2}
+            >
+              <div className="bg-white p-10 shadow-lg hover:shadow-2xl transition-shadow">
+                <div className="w-16 h-16 bg-orange-500 flex items-center justify-center mb-6">
+                  <Send className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                  Performance Bookings
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-6">
+                  Poetry performances for conferences, ceremonies, corporate
+                  events, and festivals. From intimate gatherings to large-scale
+                  productions.
+                </p>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Government ceremonies</li>
+                  <li>• Corporate events</li>
+                  <li>• Academic institutions</li>
+                  <li>• Festivals & conferences</li>
+                </ul>
+              </div>
+            </AnimatedContent>
+
+            {/* Speaking Engagements */}
+            <AnimatedContent
+              distance={80}
+              direction="vertical"
+              reverse={false}
+              duration={0.9}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={0.95}
+              threshold={0.2}
+              delay={0.1}
+            >
+              <div className="bg-white p-10 shadow-lg hover:shadow-2xl transition-shadow">
+                <div className="w-16 h-16 bg-orange-500 flex items-center justify-center mb-6">
+                  <Send className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                  Speaking Engagements
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-6">
+                  Keynote speeches and panel discussions on youth leadership,
+                  climate action, education advocacy, and creative activism.
+                </p>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Youth summits</li>
+                  <li>• Leadership conferences</li>
+                  <li>• Climate forums</li>
+                  <li>• Educational workshops</li>
+                </ul>
+              </div>
+            </AnimatedContent>
+
+            {/* Advocacy Partnerships */}
+            <AnimatedContent
+              distance={80}
+              direction="vertical"
+              reverse={false}
+              duration={0.9}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={0.95}
+              threshold={0.2}
+              delay={0.2}
+            >
+              <div className="bg-white p-10 shadow-lg hover:shadow-2xl transition-shadow">
+                <div className="w-16 h-16 bg-orange-500 flex items-center justify-center mb-6">
+                  <Send className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                  Advocacy Partnerships
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-6">
+                  Collaborations on climate action, community development,
+                  education access, and social justice initiatives.
+                </p>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Climate campaigns</li>
+                  <li>• Community outreach</li>
+                  <li>• Education advocacy</li>
+                  <li>• Youth empowerment</li>
+                </ul>
+              </div>
+            </AnimatedContent>
+
+            {/* Media & Interviews */}
+            <AnimatedContent
+              distance={80}
+              direction="vertical"
+              reverse={false}
+              duration={0.9}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={0.95}
+              threshold={0.2}
+              delay={0.3}
+            >
+              <div className="bg-white p-10 shadow-lg hover:shadow-2xl transition-shadow">
+                <div className="w-16 h-16 bg-orange-500 flex items-center justify-center mb-6">
+                  <Send className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                  Media & Interviews
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-6">
+                  Available for podcast interviews, magazine features,
+                  documentary participation, and media commentary on youth
+                  issues.
+                </p>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Podcast appearances</li>
+                  <li>• Magazine features</li>
+                  <li>• Documentary projects</li>
+                  <li>• Radio interviews</li>
+                </ul>
+              </div>
+            </AnimatedContent>
+
+            {/* Workshop Facilitation */}
+            <AnimatedContent
+              distance={80}
+              direction="vertical"
+              reverse={false}
+              duration={0.9}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={0.95}
+              threshold={0.2}
+              delay={0.4}
+            >
+              <div className="bg-white p-10 shadow-lg hover:shadow-2xl transition-shadow">
+                <div className="w-16 h-16 bg-orange-500 flex items-center justify-center mb-6">
+                  <Send className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                  Workshop Facilitation
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-6">
+                  Interactive workshops on spoken word poetry, storytelling for
+                  advocacy, and using creativity for social change.
+                </p>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Poetry writing workshops</li>
+                  <li>• Performance training</li>
+                  <li>• Storytelling sessions</li>
+                  <li>• Youth empowerment</li>
+                </ul>
+              </div>
+            </AnimatedContent>
+
+            {/* Custom Projects */}
+            <AnimatedContent
+              distance={80}
+              direction="vertical"
+              reverse={false}
+              duration={0.9}
+              ease="power3.out"
+              initialOpacity={0}
+              animateOpacity
+              scale={0.95}
+              threshold={0.2}
+              delay={0.5}
+            >
+              <div className="bg-white p-10 shadow-lg hover:shadow-2xl transition-shadow">
+                <div className="w-16 h-16 bg-orange-500 flex items-center justify-center mb-6">
+                  <Send className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                  Custom Projects
+                </h3>
+                <p className="text-gray-700 leading-relaxed mb-6">
+                  Bespoke collaborations combining poetry, technology, and
+                  advocacy tailored to your organization's mission.
+                </p>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Custom poetry commissions</li>
+                  <li>• Campaign development</li>
+                  <li>• Website development</li>
+                  <li>• Content creation</li>
+                </ul>
+              </div>
+            </AnimatedContent>
+          </div>
+        </div>
+      </section>
 
       {/* Contact Form Section */}
       <section className="py-32 px-6 bg-white">
@@ -489,228 +711,6 @@ ${formData.message}
       </section>
 
       {/* Booking Information */}
-      <section className="py-32 px-6 bg-gray-50">
-        <div className="max-w-7xl mx-auto">
-          <AnimatedContent
-            distance={80}
-            direction="vertical"
-            reverse={false}
-            duration={1}
-            ease="power3.out"
-            initialOpacity={0}
-            animateOpacity
-            threshold={0.2}
-          >
-            <div className="mb-16 text-center">
-              <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-                What I Offer
-              </h2>
-              <div className="h-1 w-32 bg-linear-to-r from-orange-500 to-orange-300 mx-auto"></div>
-            </div>
-          </AnimatedContent>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Performance Bookings */}
-            <AnimatedContent
-              distance={80}
-              direction="vertical"
-              reverse={false}
-              duration={0.9}
-              ease="power3.out"
-              initialOpacity={0}
-              animateOpacity
-              scale={0.95}
-              threshold={0.2}
-            >
-              <div className="bg-white p-10 shadow-lg hover:shadow-2xl transition-shadow">
-                <div className="w-16 h-16 bg-orange-500 flex items-center justify-center mb-6">
-                  <Send className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                  Performance Bookings
-                </h3>
-                <p className="text-gray-700 leading-relaxed mb-6">
-                  Poetry performances for conferences, ceremonies, corporate
-                  events, and festivals. From intimate gatherings to large-scale
-                  productions.
-                </p>
-                <ul className="space-y-2 text-gray-600">
-                  <li>• Government ceremonies</li>
-                  <li>• Corporate events</li>
-                  <li>• Academic institutions</li>
-                  <li>• Festivals & conferences</li>
-                </ul>
-              </div>
-            </AnimatedContent>
-
-            {/* Speaking Engagements */}
-            <AnimatedContent
-              distance={80}
-              direction="vertical"
-              reverse={false}
-              duration={0.9}
-              ease="power3.out"
-              initialOpacity={0}
-              animateOpacity
-              scale={0.95}
-              threshold={0.2}
-              delay={0.1}
-            >
-              <div className="bg-white p-10 shadow-lg hover:shadow-2xl transition-shadow">
-                <div className="w-16 h-16 bg-orange-500 flex items-center justify-center mb-6">
-                  <Send className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                  Speaking Engagements
-                </h3>
-                <p className="text-gray-700 leading-relaxed mb-6">
-                  Keynote speeches and panel discussions on youth leadership,
-                  climate action, education advocacy, and creative activism.
-                </p>
-                <ul className="space-y-2 text-gray-600">
-                  <li>• Youth summits</li>
-                  <li>• Leadership conferences</li>
-                  <li>• Climate forums</li>
-                  <li>• Educational workshops</li>
-                </ul>
-              </div>
-            </AnimatedContent>
-
-            {/* Advocacy Partnerships */}
-            <AnimatedContent
-              distance={80}
-              direction="vertical"
-              reverse={false}
-              duration={0.9}
-              ease="power3.out"
-              initialOpacity={0}
-              animateOpacity
-              scale={0.95}
-              threshold={0.2}
-              delay={0.2}
-            >
-              <div className="bg-white p-10 shadow-lg hover:shadow-2xl transition-shadow">
-                <div className="w-16 h-16 bg-orange-500 flex items-center justify-center mb-6">
-                  <Send className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                  Advocacy Partnerships
-                </h3>
-                <p className="text-gray-700 leading-relaxed mb-6">
-                  Collaborations on climate action, community development,
-                  education access, and social justice initiatives.
-                </p>
-                <ul className="space-y-2 text-gray-600">
-                  <li>• Climate campaigns</li>
-                  <li>• Community outreach</li>
-                  <li>• Education advocacy</li>
-                  <li>• Youth empowerment</li>
-                </ul>
-              </div>
-            </AnimatedContent>
-
-            {/* Media & Interviews */}
-            <AnimatedContent
-              distance={80}
-              direction="vertical"
-              reverse={false}
-              duration={0.9}
-              ease="power3.out"
-              initialOpacity={0}
-              animateOpacity
-              scale={0.95}
-              threshold={0.2}
-              delay={0.3}
-            >
-              <div className="bg-white p-10 shadow-lg hover:shadow-2xl transition-shadow">
-                <div className="w-16 h-16 bg-orange-500 flex items-center justify-center mb-6">
-                  <Send className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                  Media & Interviews
-                </h3>
-                <p className="text-gray-700 leading-relaxed mb-6">
-                  Available for podcast interviews, magazine features,
-                  documentary participation, and media commentary on youth
-                  issues.
-                </p>
-                <ul className="space-y-2 text-gray-600">
-                  <li>• Podcast appearances</li>
-                  <li>• Magazine features</li>
-                  <li>• Documentary projects</li>
-                  <li>• Radio interviews</li>
-                </ul>
-              </div>
-            </AnimatedContent>
-
-            {/* Workshop Facilitation */}
-            <AnimatedContent
-              distance={80}
-              direction="vertical"
-              reverse={false}
-              duration={0.9}
-              ease="power3.out"
-              initialOpacity={0}
-              animateOpacity
-              scale={0.95}
-              threshold={0.2}
-              delay={0.4}
-            >
-              <div className="bg-white p-10 shadow-lg hover:shadow-2xl transition-shadow">
-                <div className="w-16 h-16 bg-orange-500 flex items-center justify-center mb-6">
-                  <Send className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                  Workshop Facilitation
-                </h3>
-                <p className="text-gray-700 leading-relaxed mb-6">
-                  Interactive workshops on spoken word poetry, storytelling for
-                  advocacy, and using creativity for social change.
-                </p>
-                <ul className="space-y-2 text-gray-600">
-                  <li>• Poetry writing workshops</li>
-                  <li>• Performance training</li>
-                  <li>• Storytelling sessions</li>
-                  <li>• Youth empowerment</li>
-                </ul>
-              </div>
-            </AnimatedContent>
-
-            {/* Custom Projects */}
-            <AnimatedContent
-              distance={80}
-              direction="vertical"
-              reverse={false}
-              duration={0.9}
-              ease="power3.out"
-              initialOpacity={0}
-              animateOpacity
-              scale={0.95}
-              threshold={0.2}
-              delay={0.5}
-            >
-              <div className="bg-white p-10 shadow-lg hover:shadow-2xl transition-shadow">
-                <div className="w-16 h-16 bg-orange-500 flex items-center justify-center mb-6">
-                  <Send className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                  Custom Projects
-                </h3>
-                <p className="text-gray-700 leading-relaxed mb-6">
-                  Bespoke collaborations combining poetry, technology, and
-                  advocacy tailored to your organization's mission.
-                </p>
-                <ul className="space-y-2 text-gray-600">
-                  <li>• Custom poetry commissions</li>
-                  <li>• Campaign development</li>
-                  <li>• Website development</li>
-                  <li>• Content creation</li>
-                </ul>
-              </div>
-            </AnimatedContent>
-          </div>
-        </div>
-      </section>
 
       {/* CTA Section */}
       <section className="relative min-h-[60vh] flex items-center justify-center bg-gray-900 text-white overflow-hidden">
