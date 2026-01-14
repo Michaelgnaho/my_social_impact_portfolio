@@ -30,7 +30,7 @@ export default function Hero() {
   ];
 
   return (
-    <section className="relative h-screen min-h-[750px] w-full overflow-hidden">
+    <section className="relative h-auto  min-h-187.5 w-full overflow-hidden">
       {/* Background Carousel */}
       <div className="absolute inset-0 " ref={emblaRef}>
         <div className="flex h-full">
@@ -50,7 +50,7 @@ export default function Hero() {
         </div>
 
         {/* Dark overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30 pointer-events-none" />
+        <div className="absolute inset-0 bg-linear-to-r from-black/70 via-black/50 to-black/30 pointer-events-none" />
       </div>
 
       {/* Content */}
@@ -61,7 +61,7 @@ export default function Hero() {
               Global Youth Ambassador & Spoken Word Poet
             </h1>
 
-            <div className="w-24 h-1 bg-gradient-to-r from-orange-500 to-orange-600 mb-8 mx-auto" />
+            <div className="w-24 h-1 bg-linear-to-r from-orange-500 to-orange-600 mb-8 mx-auto" />
 
             <p className="text-xl sm:text-2xl md:text-3xl text-white font-semibold mb-6">
               Amplifying voices for education, climate, and justice.
