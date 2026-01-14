@@ -30,7 +30,7 @@ export default function Hero() {
   ];
 
   return (
-    <section className="relative h-auto  min-h-187.5 w-full overflow-hidden">
+    <section className="relative   min-h-187.5 w-full overflow-hidden">
       {/* Background Carousel */}
       <div className="absolute inset-0 " ref={emblaRef}>
         <div className="flex h-full">
