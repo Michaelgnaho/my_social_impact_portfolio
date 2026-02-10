@@ -1,20 +1,20 @@
-"use client"
+"use client";
 
-import Link from 'next/link';
-import { Menu, X } from 'lucide-react';
-import { useState } from 'react';
-
+import Link from "next/link";
+import { Menu, X } from "lucide-react";
+import { useState } from "react";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
-    { href: '/', label: 'Home' },
-    { href: '/about', label: 'About' },
-    { href: '/performances', label: 'Performances' },
-    { href: '/videos', label: 'Videos' },
-    { href: '/impacts', label: 'Impact & Advocacy' },
-    { href: '/contact', label: 'Contact' },
+    { href: "/", label: "Home" },
+    { href: "/about", label: "About" },
+    { href: "/performances", label: "Performances" },
+    { href: "/videos", label: "Videos" },
+    { href: "/impacts", label: "Impact & Advocacy" },
+    { href: "/contact", label: "Contact" },
   ];
 
   return (
@@ -22,6 +22,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo/Brand */}
+          <Image src="/images/my-logo.png" alt="logo" width="50" height="30" />
           <Link href="/" className="flex flex-col">
             <span className="text-xl sm:text-2xl font-bold text-neutral-900">
               Michael Adeyemi Gnaho

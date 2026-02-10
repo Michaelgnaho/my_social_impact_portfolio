@@ -74,7 +74,7 @@ export default function Footer() {
                 Advocacy
               </Link>
               <Link
-                href="/book"
+                href="/contact"
                 className="block text-neutral-600 hover:text-orange-600"
               >
                 Book Me
@@ -123,9 +123,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-neutral-200">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-neutral-600">
-            <p>
-              &copy; {currentYear} Michael [Last Name]. All rights reserved.
-            </p>
+            <p>&copy; {currentYear} Michael Gnaho. All rights reserved.</p>
             <div className="flex gap-6">
               <Link href="/privacy" className="hover:text-orange-600">
                 Privacy Policy
